@@ -1,0 +1,743 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.firstS {
+  height: 100vh;
+  position: relative;
+}
+.firstS::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/newnetflix\ image.jpg");
+  z-index: -1;
+}
+.logo {
+  height: 8vh;
+  display: flex;
+  padding-top: 20px;
+}
+
+.netname {
+  font-size: 270%;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signin {
+  color: white;
+  height: 4vh;
+  width: 75px;
+  border-radius: 6px;
+  background-color: rgb(229, 9, 20);
+  font-size: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 8px;
+}
+.firstStext {
+  height: 70vh;
+  text-align: center;
+}
+.text1 {
+  color: aliceblue;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  font-weight: 800;
+}
+.text2 {
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+}
+.text3 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.emailinput {
+  width: 400px;
+  height: 8vh;
+  margin: 5px;
+  background-color: rgba(55, 53, 53, 0.5);
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 15px;
+  /* padding-bottom: 10px; */
+}
+
+.btnget {
+  width: 200px;
+  height: 8vh;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+.line {
+  height: 1vh;
+  background-color: rgb(59, 57, 57);
+  border: none;
+}
+.body {
+  height: 160vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/newnetflix\ image.jpg");
+  z-index: -1;
+}
+.netnames {
+  font-size: 270%;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+}
+.signinfo {
+  height: 80vh;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+}
+.signtext {
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+.signinput {
+  display: flex;
+  flex-direction: column;
+}
+.signput {
+  width: 300px;
+  height: 7vh;
+  background-color: rgb(82, 80, 80);
+  border: none;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+.signnbtn {
+  color: white;
+  height: 7vh;
+  width: 300px;
+  border-radius: 4px;
+  background-color: rgb(229, 9, 20);
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  margin-top: 25px;
+}
+.helplane {
+  display: flex;
+  padding: 10px;
+}
+.remem {
+  display: flex;
+  margin-right: 120px;
+}
+.check {
+  width: 20px;
+}
+.re {
+  color: rgb(161, 165, 168);
+}
+.helpneed {
+  color: rgb(161, 165, 168);
+}
+.newnet {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.signupnow {
+  color: aliceblue;
+  font-size: large;
+}
+.this {
+  color: rgb(161, 165, 168);
+  font-size: 15px;
+}
+.learn {
+  color: rgb(90, 90, 228);
+  cursor: pointer;
+}
+.newtext {
+  color: rgb(161, 165, 168);
+  font-size: 15px;
+  padding-top: 10px;
+}
+.footer {
+  height: 20vh;
+  padding-top: 57px;
+  margin-top: 120px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  color: rgb(161, 165, 168);
+  cursor: pointer;
+}
+.lines {
+  height: 6vh;
+}
+.helpc {
+  color: rgb(161, 165, 168);
+}
+.seconds {
+  height: 80vh;
+  background-color: black;
+}
+.enjoy {
+  color: aliceblue;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.enjoyimage {
+  display: flex;
+}
+.enjoytext {
+  padding-top: 13%;
+  padding-left: 12%;
+  width: 50%;
+}
+.happytv {
+  padding-top: 5%;
+  width: 50%;
+  position: relative;
+  padding-right: 18%;
+}
+.tvimage {
+  width: 105%;
+  height: 100%;
+}
+
+.its {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+  font-size: large;
+  color: whitesmoke;
+}
+.watch {
+  color: whitesmoke;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.thirds {
+  height: 75vh;
+  background-color: black;
+}
+.mobile {
+  display: flex;
+  margin-left: 150px;
+}
+.mobileimg {
+  width: 130%;
+  height: 55vh;
+}
+.download {
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.save {
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.down {
+  padding-right: 250px;
+  padding-top: 110px;
+  padding-left: 120px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.movie {
+  width: 100px;
+  height: 12vh;
+}
+.smovie {
+  border: 2px solid grey;
+  background-color: black;
+  border-radius: 6px;
+  height: 14vh;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -130px;
+}
+.breath {
+  color: aliceblue;
+}
+.fourths {
+  height: 55vh;
+  background-color: black;
+}
+.watchevery {
+  height: 32vh;
+  width: 380px;
+  padding-top: 60px;
+  margin-left: 250px;
+}
+.fifths {
+  height: 75vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.create {
+  height: 50vh;
+  width: 500px;
+  padding-right: 160px;
+  padding-top: 50px;
+}
+.createp {
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.send {
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kidsimg {
+  padding-left: 180px;
+}
+.kidspix {
+  height: 55vh;
+}
+.sixths {
+  overflow-x: hidden;
+  height: 145vh;
+  background-color: black;
+}
+
+.freq {
+  color: rgb(240, 244, 248);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.what {
+  color: rgb(241, 240, 238);
+  border: 0px solid grey;
+  background-color: rgb(49, 47, 47);
+  width: 1000px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 20px;
+}
+.plus {
+  margin-right: -80px;
+  height: 7vh;
+  width: 200px;
+}
+.whats {
+  color: rgb(241, 240, 238);
+  border: 0px solid grey;
+  background-color: rgb(49, 47, 47);
+  width: 1000px;
+  font-size: 25px;
+  margin-top: -9px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-weight: 500;
+}
+.youc {
+  padding-top: 30px;
+}
+.ready {
+  color: rgb(240, 244, 248);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.emailget {
+  text-align: center;
+}
+.seventhss {
+  height: 65vh;
+  background-color: black;
+}
+.sevenths {
+  height: 65vh;
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.links {
+  width: 250px;
+  height: 30vh;
+  color: rgb(176, 179, 181);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.linkss {
+  width: 250px;
+  height: 25vh;
+  color: rgb(176, 179, 181);
+  padding-top: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.linksss {
+  width: 250px;
+  height: 25vh;
+  color: rgb(176, 179, 181);
+  padding-top: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.allinks {
+  display: flex;
+}
+.eng {
+  padding-right: 830px;
+}
+.firstF {
+  position: relative;
+}
+
+.firstF::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/newnetflix\ image.jpg");
+  z-index: -1;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.whati {
+  color: rgb(241, 240, 238);
+  border: 0px solid grey;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 1000px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 20px;
+}
+.whatsi {
+  color: rgb(241, 240, 238);
+  border: 0px solid grey;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 1000px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-weight: 500;
+  margin-top: -9px;
+}
+.helpce {
+  color: rgb(176, 179, 181);
+  padding-bottom: 30px;
+}
+.terms {
+  padding-bottom: 25px;
+}
+.english {
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: large;
+  color: aliceblue;
+  
+}
+.netf {
+  color: rgb(176, 179, 181);
+  padding-top: 30px;
+  cursor: auto;
+}
+.helphead {
+  height: 5vh;
+  display: flex;
+  margin: 10px;
+}
+.helpnet {
+  color: rgb(229, 9, 20);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.helpe {
+  color: black;
+  font-size: 18px;
+}
+.bodyhelp {
+  height: 90vh;
+  background-color: rgb(248, 249, 250);
+  text-align: center;
+}
+.how {
+  padding-top: 200px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.helpinput {
+  width: 50%;
+  height: 6vh;
+  border-radius: 4px;
+  background: linear-gradient(to right, red, purple, blue);
+}
+.search {
+  position: absolute;
+  top: 50%;
+  right: 350px;
+  transform: translateY(-50%);
+}
+.helparrow {
+  height: 100px;
+  width: 2%;
+}
+.needmorehelp {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+.helpbtn {
+  width: 230px;
+  height: 50px;
+  font-size: 18px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 6px;
+}
+
+@media (max-width: 1026px) {
+  .firstS {
+    height: 75vh;
+  }
+  .netname {
+    font-size: 150%;
+  }
+  .text1 {
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .text2 {
+    font-size: 17px;
+    padding-bottom: 17px;
+  }
+  .text3 {
+    font-size: 17px;
+    padding: 20px;
+  }
+  .emailinput {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .btnget {
+    width: 160px;
+    font-size: 17px;
+  }
+  .enjoyimage {
+    display: flex;
+    flex-direction: column;
+  }
+  .enjoytext {
+    padding: 30px;
+  }
+  .enjoy {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+  .enjoytext {
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 85%;
+  }
+  .watch {
+    font-size: 17px;
+    padding-top: 18px;
+    text-align: center;
+  }
+  .happytv {
+    padding-right: 160px;
+  }
+  .tvimage {
+    width: 360px;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 10px;
+  }
+  .mobileimg {
+    width: 100%;
+    height: 35vh;
+  }
+  .smovie {
+    border-radius: 10px;
+    height: 10vh;
+    width: 250px;
+    margin-top: -100px;
+    margin-left: 50px;
+  }
+  .movie {
+    width: 80px;
+    height: 8vh;
+  }
+  .down {
+    padding-right: 0px;
+    padding-top: 60px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .download {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .save {
+    font-size: 19px;
+  }
+  .images {
+    padding-top: 20px;
+  }
+  .fourths {
+    height: 35vh;
+  }
+  .watchevery {
+    padding-top: 60px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .fifths {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80vh;
+  }
+  .kidsimg {
+    padding-left: 0px;
+  }
+  .kidspix {
+    height: 40vh;
+    margin-bottom: 50px;
+  }
+  .create {
+    width: 380px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .createp {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .send {
+    font-size: 19px;
+  }
+  .freq {
+    font-size: 32px;
+  }
+  .what {
+    width: 320px;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .plus {
+    margin-right: -90px;
+    height: 4vh;
+  }
+  .whats {
+    width: 320px;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .ready {
+    font-size: 19px;
+    padding: 45px;
+    padding-bottom: 15px;
+  }
+  .sixths {
+    height: 125vh;
+  }
+  .sevenths {
+    height: 65vh;
+    width: 450px;
+    padding-top: 50px;
+  }
+  .terms {
+    padding-bottom: 15px;
+  }
+  .allinks {
+    display: flex;
+    flex-direction: column;
+  }
+  .linksss {
+    margin-top: -100px;
+  }
+  .linkss {
+    padding-top: 30px;
+  }
+  .english {
+    width: 120px;
+    margin-top: -50px;
+    background-color: rgb(49, 47, 47);
+  }
+  .netnames {
+    font-size: 170%;
+  }
+  .signinfo {
+    height: 77vh;
+    width: 69%;
+  }
+  .body {
+    height: 149vh;
+  }
+  .footer {
+    display: flex;
+    gap: 15px;
+  }
+  .whati {
+    width: 320px;
+  }
+  .whatsi {
+    width: 320px;
+  }
+  .search {
+    display: none;
+  }
+}
