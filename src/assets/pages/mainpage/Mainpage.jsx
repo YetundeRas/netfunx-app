@@ -74,14 +74,13 @@ const Mainpage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-     if (!emailRegex.test(inputValue)) {
-       setShowErrorMessage(true);
-     } else {
-       alert("Welcome");
-     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(inputValue)) {
+      setShowErrorMessage(true);
+    } else {
+      alert("Welcome");
+    }
   };
-  
 
   return (
     <div>
@@ -345,7 +344,11 @@ const Mainpage = () => {
           <div className="allinks">
             <div style={{ display: "flex" }}>
               <div className="links">
-                <p className="terms">Questions? Contact us</p>
+                <p className="terms">
+                  <Link to="/contact" className="helpce">
+                    Questions? Contact us
+                  </Link>
+                </p>
                 <p className="terms">
                   <Link to="/faq" className="helpce">
                     FAQ

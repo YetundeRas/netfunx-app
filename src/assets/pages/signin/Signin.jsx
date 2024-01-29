@@ -100,18 +100,22 @@ const Signin = () => {
       </section>
 
       <section className="footer">
-        <p>Questions? Contact us</p>
-        <Link to="/faq" className="helpc">
-          FAQ
-        </Link>
-        <Link className="helpc" to="/help">
-          Help Center
-        </Link>
-        <p>Terms of Use</p>
-        <p>Privacy</p>
-        <p>Corporate Information</p>
+        <div className="footerd">
+          <Link to="/contact" className="helpc">
+            Questions? Contact us
+          </Link>
+          <Link to="/faq" className="helpc">
+            FAQ
+          </Link>
+          <Link className="helpc" to="/help">
+            Help Center
+          </Link>
+          <p>Terms of Use</p>
+          <p>Privacy</p>
+          <p>Corporate Information</p>
+        </div>
       </section>
-      <hr className="lines" />
+      
     </div>
   );
 };

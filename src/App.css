@@ -14,7 +14,7 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/newnetflix\ image.jpg");
+    url("https://media.istockphoto.com/id/1224527162/photo/caucasian-brunette-male-enjoying-happy-moments-in-life.jpg?s=612x612&w=0&k=20&c=xMAYOXRFVJZyTjG1JEf3OAifUyxXuX8biklXFTVuqo8=");
   z-index: -1;
 }
 .logo {
@@ -94,7 +94,7 @@
 .body {
   height: 160vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/newnetflix\ image.jpg");
+    url("https://media.istockphoto.com/id/1224527162/photo/caucasian-brunette-male-enjoying-happy-moments-in-life.jpg?s=612x612&w=0&k=20&c=xMAYOXRFVJZyTjG1JEf3OAifUyxXuX8biklXFTVuqo8=");
   z-index: -1;
 }
 .netnames {
@@ -182,13 +182,16 @@
   padding-top: 10px;
 }
 .footer {
-  height: 20vh;
-  padding-top: 57px;
-  margin-top: 120px;
+  height: 35vh;
+  margin-top: 70px;
   background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
+  /* display: flex; */
   color: rgb(161, 165, 168);
   cursor: pointer;
+}
+.footerd {
+  display: flex;
+  padding: 50px;
 }
 .lines {
   height: 6vh;
@@ -223,7 +226,7 @@
 }
 .tvimage {
   width: 105%;
-  height: 100%;
+  height: 90%;
 }
 
 .its {
@@ -395,7 +398,7 @@
   width: 950px;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 .links {
   width: 250px;
@@ -403,12 +406,13 @@
   color: rgb(176, 179, 181);
   cursor: pointer;
   text-decoration: underline;
+  padding-top: 50px;
 }
 .linkss {
   width: 250px;
   height: 25vh;
   color: rgb(176, 179, 181);
-  padding-top: 50px;
+  padding-top: 100px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -416,7 +420,7 @@
   width: 250px;
   height: 25vh;
   color: rgb(176, 179, 181);
-  padding-top: 50px;
+  padding-top: 100px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -438,7 +442,7 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/newnetflix\ image.jpg");
+    url("https://media.istockphoto.com/id/1224527162/photo/caucasian-brunette-male-enjoying-happy-moments-in-life.jpg?s=612x612&w=0&k=20&c=xMAYOXRFVJZyTjG1JEf3OAifUyxXuX8biklXFTVuqo8=");
   z-index: -1;
   max-width: 100%;
   overflow-x: hidden;
@@ -540,9 +544,21 @@
   color: aliceblue;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
 }
-
-@media (max-width: 1026px) {
+.talk {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.btnc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 767px) {
   .firstS {
     height: 75vh;
   }
@@ -696,7 +712,7 @@
   .sevenths {
     height: 65vh;
     width: 450px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
   .terms {
     padding-bottom: 15px;
@@ -706,10 +722,10 @@
     flex-direction: column;
   }
   .linksss {
-    margin-top: -100px;
+    margin-top: -150px;
   }
   .linkss {
-    padding-top: 30px;
+    padding-top: 100px;
   }
   .english {
     width: 120px;
@@ -738,5 +754,13 @@
   }
   .search {
     display: none;
+  }
+  .footerd {
+    padding: 10px;
+    padding-top: 50px;
+  }
+  .helpe {
+    color: black;
+    font-size: 15px;
   }
 }
